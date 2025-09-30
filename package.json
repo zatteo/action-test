@@ -1,0 +1,8 @@
+{
+  "name": "test",
+  "version": "1.50.0",
+  "scripts": {
+    "version": "yarn version:manifest",
+    "version:manifest": "replace '\\d+\\.\\d+\\.\\d+' $npm_package_version ./manifest.webapp"
+  } 
+}
